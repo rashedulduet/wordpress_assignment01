@@ -1,0 +1,265 @@
+/* css of menubar bar start */
+#menubar .main{
+    border: 0px 0px 1px 0px;
+    background-color: #ffffff;
+    padding: 16px 80px 16px 80px;
+    
+ 
+}
+#menubar .topmenu .logo{
+   margin-right: 24px;
+}
+
+#menubar .logoText{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+}
+#menubar .menu ul{
+    display: flex;
+    width: 460px;
+   }
+   #menubar .menu ul li{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    margin-right: 24px;
+   }
+.hireBtm{
+    padding: 10px 21px ;
+    border: 1px solid green;
+    border-radius: 8px;
+   background-color: transparent;
+  
+}
+.hireBtm:hover{
+    background-color:#078D84;
+}
+/* css of menubar bar end */
+/* css of header part start */
+#header .main{
+    padding: 112px 80px 197px 80px;
+    background-color:#f6f8ff;
+   
+ 
+}
+p, a, li{
+    font-family: "Inter", sans-serif;
+}
+#header .first{
+    font-weight: 500;
+    line-height: 61.6px;
+    font-size: 55px;   
+}
+
+
+.heropic{
+   background-image: url(./images/Vector.png);
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: 616px 359.16px;
+  
+}
+.man{
+    position: relative;
+}
+.man img{
+  position: absolute;
+ width: 384.8px;
+height: 581.66px;
+top: -62px;
+left: 115.57px;
+}
+/* css of header part end */
+/* css of logo part star */
+#logo .main{
+    background-color: #3e3e70;
+    padding: 74px;
+}
+/* #logo .main .subdiv{
+    padding: 80px;   
+} */
+#logo .text{
+width: 255px; 
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;   
+}
+#logo ul li{
+    margin-right: 32px;
+}
+
+/* css of logo part end */
+/* css of service part start */
+#service .main{
+    padding:120px 80px ;
+    background-color: #f6f8ff;
+}
+#service .first{
+    width: 1461px;
+}
+#service .sectionTitle .secondtitle{
+   font-size: 40px;
+   line-height: 48px;
+}
+#service .common{
+    width:296px;
+height: 329px;
+padding: 32px 24px 32px 24px;
+border-radius: 16px;
+background-color:#ffffff;
+}
+#service .common img{
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+}
+/* css of service part end */
+/* css of aboutme part start */
+
+#about .main{
+    width:1,440px;
+    height: 864px;
+    padding: 112px 64px 112px 64px;
+    background-color: #ffffff;
+}
+
+#about .main .one{
+  position: relative;
+}
+#about .main .topimg{
+    position: absolute;
+    bottom: -60px;
+    left: -55px;
+    z-index: -1;
+}
+.btmimg{
+    position: absolute;
+    top: -60px;
+    right:-50px;
+    z-index: -1;
+}
+#about .who{
+    font-size: 40px;
+    line-height: 48px;
+}
+#about .data{
+    width: 162px;
+    height: 99px;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #fdfdfd;
+}
+
+/* css of aboutme part end */
+#testimonial .testimonial{
+    position: relative;
+    text-align: center;
+   background-color: rgb(72, 72, 163);
+   color: white;
+
+padding: 112px 64px 112px 64px;
+}
+#testimonial .testimonial .main{
+
+     margin: 0, auto;
+    text-align: center;
+    
+}
+#testimonial .testimonial .main .maintext{
+   width: 555px !important;
+ margin-top: 32px;
+ margin-bottom: 32px;
+  display:inline-block;
+}
+#testimonial .testimonial .port{
+    display: flex;    
+}
+#testimonial .seconds{
+   
+    align-self: center;
+    margin: auto;
+    display: flex;
+}
+#testimonial .text{
+    width: 259px;
+    position: relative;
+    text-align: left;
+}
+#testimonial .text h1, p{
+    padding: 0px;
+    margin: 0px;
+}
+   #testimonial .testimonial .port.third{
+    margin-left: 20px;
+   
+   }
+   #testimonial .testimonial .text::after{
+        position: absolute;
+        content: " ";
+       width: 2px !important;
+       height: 50px !important;
+       top: 0px;
+       right: -13px;
+       background-color: rgb(22, 12, 12);
+       z-index: 999;
+   }
+   .Vectorimg{
+    margin-left: 50px;
+}
+.slick-prev.slick-arrow{
+    height: 100px;
+    width: 100px;
+}
+.slick-next.slick-arrow{
+    height: 100px;
+    width: 100px; 
+}
+.slick-dots{
+    bottom: 20px !important; 
+   
+  
+}
+.slick-dotted.slick-slider{
+    margin-bottom:0px !important;
+}
+/* cta part start */
+#cta .cta .innerdiv{
+    padding: 112px 64px;
+    background-color:#1c1c57;
+    color: white;
+}
+#cta .head{
+    font-size: 40px;
+    line-height: 48px;
+}
+/* cta part end */
+/* footer part start */
+#footer .footer{
+    padding: 80px;
+    background-color:#1c1c57;
+    color: white;
+}
+#footer .inputtype{
+    width:365px;
+
+    padding: 8px 12px 8px 12px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    border:1px solid white; 
+    
+}
+#footer ul li{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+#footer ul li i{
+    height: 24px;
+    width: 24px;
+    color: white;
+}
+/* footer part end */
